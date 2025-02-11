@@ -56,9 +56,13 @@ INSERT INTO emp_personel_detail (e_id, e_name, e_place) VALUES
 (115, 'Mohan', 'Kolkata');
 SELECT * FROM emp_personel_detail;
 
+#Updating the existing value
+    
 UPDATE emp_personel_detail SET e_yoe = 0 WHERE e_yoe IS NULL;
 SELECT * FROM emp_personel_detail;
 
+#Performing Deletion Operation on employee id is 105
+    
 DELETE FROM emp_personel_detail WHERE e_id = 105;
 SELECT * FROM emp_personel_detail;
 
