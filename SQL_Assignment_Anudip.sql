@@ -29,6 +29,8 @@ DESC emp_personel_detail;
 ALTER TABLE emp_personel_detail ADD e_yoe INT;
 DESC emp_personel_detail;
 
+#Inserting the Data
+
 INSERT INTO emp_personel_detail (e_id, e_name, e_place, e_yoe) VALUES
 (101, 'Ramu', 'Mysore', 3),
 (102, 'Raju', 'Bangalore', 4),
@@ -40,6 +42,8 @@ INSERT INTO emp_personel_detail (e_id, e_name, e_place, e_yoe) VALUES
 (108, 'Kalyani', 'Bangalore', 7),
 (109, 'Tom', 'Mysore', 4),
 (110, 'Vasu', 'Chennai', 5);
+
+#Inserting The Data
 
 INSERT INTO emp_personel_detail (e_id, e_name, e_place, e_yoe) VALUES
 (111, 'John', 'Pune', 2),
